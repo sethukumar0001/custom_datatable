@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 <!-- https://stackoverflow.com/questions/53808595/how-to-use-drag-and-drop-functionality-both-columns-and-rows-in-my-react-table?rq=3 -->
 <!-- https://codesandbox.io/s/5vxlnjrw1n?file=/DraggableTable.js -->
+
+<!-- worked from scratch -->
+<!-- https://codesandbox.io/s/html-table-column-drag-n-drop-reorder-with-react-hooks-uvzpi?file=/src/generate-data.js:167-342 -->
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
