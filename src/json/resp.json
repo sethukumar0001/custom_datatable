@@ -1,0 +1,108 @@
+{
+    "data": {
+        "sales": [
+            {
+                "id": "cljd1l201002m0knoybh8o6hd",
+                "name": "Manufacturing",
+                "closing_date": "2023-07-26T00:00:00.000Z",
+                "description": "desc",
+                "type": "Existing Business",
+                "lead_source": "Advertisement",
+                "currency": "INR",
+                "amount": "100",
+                "expected_revenue": "1000",
+                "probability": "100",
+                "priority": "Low",
+                "created_at": "2023-06-26T15:57:12.674Z",
+                "updated_at": "2023-06-26T18:14:26.231Z",
+                "owner_id": "cljcysgka00050knofiddqhto",
+                "pipeline_id": "cljcysi0h001b0knoajy1q04d",
+                "stage_id": "cljcysi0h001d0knoi72xjgs2",
+                "org_id": "cljcysgka00040kno2qf6dmot",
+                "created_by_id": "cljcysgka00050knofiddqhto",
+                "updated_by_id": "cljcysgka00050knofiddqhto",
+                "stage": {
+                    "id": "cljcysi0h001d0knoi72xjgs2",
+                    "name": "Appointment Scheduled"
+                },
+                "owner": {
+                    "id": "cljcysgka00050knofiddqhto",
+                    "user": {
+                        "first_name": "Ravindra",
+                        "last_name": "G"
+                    }
+                }
+            },
+            {
+                "id": "cljd6le68002o0knoexekcy7j",
+                "name": "Production",
+                "closing_date": "2023-06-29T00:00:00.000Z",
+                "description": "desc",
+                "type": "Existing Business",
+                "lead_source": "Advertisement",
+                "currency": "INR",
+                "amount": "100",
+                "expected_revenue": "10000",
+                "probability": "100",
+                "priority": "Medium",
+                "created_at": "2023-06-26T18:17:26.528Z",
+                "updated_at": "2023-06-26T18:17:26.528Z",
+                "owner_id": "cljcysgka00050knofiddqhto",
+                "pipeline_id": "cljcysi0h001b0knoajy1q04d",
+                "stage_id": "cljcysi0h001c0kno7z7wj6a6",
+                "org_id": "cljcysgka00040kno2qf6dmot",
+                "created_by_id": "cljcysgka00050knofiddqhto",
+                "updated_by_id": "cljcysgka00050knofiddqhto",
+                "stage": {
+                    "id": "cljcysi0h001c0kno7z7wj6a6",
+                    "name": "Qualified to Buy"
+                },
+                "owner": {
+                    "id": "cljcysgka00050knofiddqhto",
+                    "user": {
+                        "first_name": "Ravindra",
+                        "last_name": "G"
+                    }
+                }
+            },
+            {
+                "id": "cljd6lxey002q0kno4fy0qleo",
+                "name": "Sales",
+                "closing_date": "2023-06-29T00:00:00.000Z",
+                "description": "desc",
+                "type": "New Business",
+                "lead_source": "Cold Call",
+                "currency": "INR",
+                "amount": "100",
+                "expected_revenue": "10000",
+                "probability": "100",
+                "priority": "Medium",
+                "created_at": "2023-06-26T18:17:51.466Z",
+                "updated_at": "2023-06-26T18:17:51.466Z",
+                "owner_id": "cljcysgka00050knofiddqhto",
+                "pipeline_id": "cljcysi0h001b0knoajy1q04d",
+                "stage_id": "cljcysi0h001c0kno7z7wj6a6",
+                "org_id": "cljcysgka00040kno2qf6dmot",
+                "created_by_id": "cljcysgka00050knofiddqhto",
+                "updated_by_id": "cljcysgka00050knofiddqhto",
+                "stage": {
+                    "id": "cljcysi0h001c0kno7z7wj6a6",
+                    "name": "Qualified to Buy"
+                },
+                "owner": {
+                    "id": "cljcysgka00050knofiddqhto",
+                    "user": {
+                        "first_name": "Ravindra",
+                        "last_name": "G"
+                    }
+                }
+            }
+        ],
+        "pagination": {
+            "page": 1,
+            "page_size": 10,
+            "page_count": 1,
+            "total": 3
+        }
+    }
+}

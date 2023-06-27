@@ -1,0 +1,52 @@
+.container {
+  max-height: 100vh;
+  overflow: auto;
+  // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 13vh;
+  width: 90%;
+  margin: 120px auto;
+}
+.datatable_table {
+  border-collapse: collapse;
+  overflow: auto;
+}
+.datatable_table_th {
+  box-sizing: border-box;
+  width: 300px;
+  color: #716f88;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+  height: 44px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #eef0f5;
+  // border-right: ${({ dragOver }) => dragOver && "1px solid #0091ae"};
+  // border-left: ${({ dragOver }) => dragOver && "1px solid #0091ae"};
+  cursor: grab;
+  background-color: #f5f8fa;
+  &:hover {
+    background-color: #e5f5f8;
+  }
+}
+.datatable_table_td {
+  font-size: 14px;
+  text-align: left;
+  height: 2.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #f5f8fa;
+  width: 400px;
+}
+table {
+  table-layout: fixed;
+}
+th,
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+}

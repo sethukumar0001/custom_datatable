@@ -1,0 +1,168 @@
+[
+    {
+        "name": "closing_date",
+        "type": "date",
+        "label": "Closing Date",
+        "custom": false,
+        "seq_num": 1,
+        "required": true,
+        "sub_type": "date",
+        "mandatory": true,
+        "lookup_api": null,
+        "prefix_allowed": false,
+        "picklist_options": []
+    },
+    {
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "custom": false,
+        "seq_num": 2,
+        "required": true,
+        "sub_type": "single_line_text",
+        "mandatory": true,
+        "lookup_api": null,
+        "prefix_allowed": true,
+        "picklist_options": []
+    },
+    {
+        "name": "owner_id",
+        "type": "lookup",
+        "label": "Owner",
+        "custom": false,
+        "seq_num": 1,
+        "required": true,
+        "sub_type": "single_select",
+        "mandatory": false,
+        "lookup_api": "org_users",
+        "prefix_allowed": true,
+        "picklist_options": []
+    },
+    {
+        "name": "description",
+        "type": "text",
+        "label": "Description",
+        "custom": false,
+        "seq_num": 4,
+        "required": false,
+        "sub_type": "multi_line_text",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": false,
+        "picklist_options": []
+    },
+    {
+        "name": "type",
+        "type": "picklist",
+        "label": "Type",
+        "custom": false,
+        "seq_num": 5,
+        "required": false,
+        "sub_type": "single_select",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": true,
+        "picklist_options": [
+            {
+                "value": "Existing Business",
+                "display_text": "Existing Business"
+            },
+            {
+                "value": "New Business",
+                "display_text": "New Business"
+            }
+        ]
+    },
+    {
+        "name": "lead_source",
+        "type": "picklist",
+        "label": "Lead Source",
+        "custom": false,
+        "seq_num": 6,
+        "required": false,
+        "sub_type": "single_select",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": false,
+        "picklist_options": [
+            {
+                "value": "Advertisement",
+                "display_text": "Advertisement"
+            },
+            {
+                "value": "Cold Call",
+                "display_text": "Cold Call"
+            },
+            {
+                "value": "Employee Referral",
+                "display_text": "Employee Referral"
+            }
+        ]
+    },
+    {
+        "name": "amount",
+        "type": "numerical",
+        "label": "Amount",
+        "custom": false,
+        "seq_num": 7,
+        "required": false,
+        "sub_type": "currency",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": true,
+        "picklist_options": []
+    },
+    {
+        "name": "expected_revenue",
+        "type": "numerical",
+        "label": "Expected Revenue",
+        "custom": false,
+        "seq_num": 8,
+        "required": false,
+        "sub_type": "currency",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": false,
+        "picklist_options": []
+    },
+    {
+        "name": "priority",
+        "type": "picklist",
+        "label": "Priority",
+        "custom": false,
+        "seq_num": 9,
+        "required": false,
+        "sub_type": "single_select",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": false,
+        "picklist_options": [
+            {
+                "value": "Low",
+                "display_text": "Low"
+            },
+            {
+                "value": "Medium",
+                "display_text": "Medium"
+            },
+            {
+                "value": "High",
+                "display_text": "High"
+            }
+        ]
+    },
+    {
+        "name": "probability",
+        "type": "numerical",
+        "label": "Probability",
+        "custom": false,
+        "default": false,
+        "seq_num": 10,
+        "required": false,
+        "sub_type": "percentage",
+        "mandatory": false,
+        "lookup_api": null,
+        "prefix_allowed": true,
+        "picklist_options": []
+    }
+]
