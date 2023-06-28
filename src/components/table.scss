@@ -11,20 +11,37 @@
   overflow: auto;
 }
 .datatable_table_th {
-  box-sizing: border-box;
-  width: 300px;
-  color: #716f88;
-  font-weight: 600;
-  font-size: 14px;
-  text-align: left;
+  // width: 300px;
   height: 44px;
-  padding-left: 10px;
-  padding-right: 10px;
   border: 2px solid #eef0f5;
-  // border-right: ${({ dragOver }) => dragOver && "1px solid #0091ae"};
-  // border-left: ${({ dragOver }) => dragOver && "1px solid #0091ae"};
-  cursor: grab;
   background-color: #f5f8fa;
+  .datatable_table_th_container {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    z-index: 2;
+    cursor: grab;
+    .datatable_table_th_img {
+      height: 18px;
+      width: 18px;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s;
+    }
+    &:hover .datatable_table_th_img {
+      visibility: visible;
+      opacity: 1;
+    }
+    .datatable_table_th_header_text {
+      color: #716f88;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: left;
+      margin-left: 5px;
+    }
+  }
   &:hover {
     background-color: #e5f5f8;
   }
